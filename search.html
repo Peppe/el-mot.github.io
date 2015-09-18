@@ -5,19 +5,22 @@
     <title>Google Custopm Search test</title>
 </head>
 <body>
- <div id="cse" style="width:40em;height:2em"><gcse:searchbox></gcse:searchbox></div>
+<div id="cse" style="width:40em;height:2em">
+    <gcse:searchbox></gcse:searchbox>
+    <gcse:searchresults></gcse:searchresults>
+</div>
 </body>
-    <!-- Put the following javascript before the closing  tag. -->
-    <script>
-        (function() {
-            var cx = '001341226131354166130:jstx2rsvvyq';
-            var gcse = document.createElement('script');
-            gcse.type = 'text/javascript';
-            gcse.async = true;
-            gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
-                    '//cse.google.com/cse.js?cx=' + cx;
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(gcse, s);
-        })();
-    </script>
+<!-- Put the following javascript before the closing  tag. -->
+<script>
+    (function () {
+        var cx = '001341226131354166130:jstx2rsvvyq';
+        var gcse = document.createElement('script');
+        gcse.type = 'text/javascript';
+        gcse.async = true;
+        gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+                '//cse.google.com/cse.js?cx=' + cx;
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(gcse, s);
+    })();
+</script>
 </html>
