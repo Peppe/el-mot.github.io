@@ -6,22 +6,30 @@
         <Context>
             <Facet>
                 <FacetItem title="Book">
-                    <Label name="_cse_vaadin_book"  mode="FILTER"/>
+                    <Label name="_cse_vaadin_book" mode="FILTER">
+                        <Rewrite/>
+                    </Label>
                 </FacetItem>
             </Facet>
             <Facet>
                 <FacetItem title="Vaadin site">
-                    <Label name="_cse_vaadin"  mode="FILTER"/>
+                    <Label name="_cse_vaadin" mode="FILTER">
+                        <Rewrite/>
+                    </Label>
                 </FacetItem>
             </Facet>
             <Facet>
                 <FacetItem title="Vaadin+Stackoverflow">
-                    <Label name="_cse_extended"  mode="FILTER"/>
+                    <Label name="_cse_extended" mode="FILTER">
+                        <Rewrite/>
+                    </Label>
                 </FacetItem>
             </Facet>
             <Facet>
                 <FacetItem title="Whole Web">
-                    <Label name="_cse_world"  mode="FILTER"/>
+                    <Label name="_cse_world" mode="FILTER">
+                        <Rewrite/>
+                    </Label>
                 </FacetItem>
             </Facet>
             <BackgroundLabels>
@@ -29,7 +37,8 @@
                 <Label name="_cse_exclude_vaadin_book" mode="ELIMINATE"/>
             </BackgroundLabels>
         </Context>
-        <LookAndFeel nonprofit="false" element_layout="4" theme="1" custom_theme="false" text_font="FontAwesome, Arial, sans-serif"
+        <LookAndFeel nonprofit="false" element_layout="2" theme="1" custom_theme="true"
+                     text_font="FontAwesome, Arial, sans-serif"
                      url_length="full" element_branding="show" enable_cse_thumbnail="true" promotion_url_length="full"
                      ads_layout="1"
                      googlebranding="smwide">
@@ -60,23 +69,23 @@
     </CustomSearchEngine>
     <Annotations start="0" num="1" total="1">
         <Annotation about="vaadin.com/book/*" score="1">
-            <Label name="_cse_vaadin_book" />
-            <Label name="_cse_vaadin" />
-            <Label name="_cse_extended" />
-            <Label name="_cse_world" />
-            <AdditionalData attribute="original_url" value="vaadin.com/book/" />
+            <Label name="_cse_vaadin_book"/>
+            <Label name="_cse_vaadin"/>
+            <Label name="_cse_extended"/>
+            <Label name="_cse_world"/>
+            <AdditionalData attribute="original_url" value="vaadin.com/book/"/>
         </Annotation>
         <Annotation about="vaadin.com/*" score="0.8">
-            <Label name="_cse_vaadin" />
-            <Label name="_cse_extended" />
-            <Label name="_cse_world" />
+            <Label name="_cse_vaadin"/>
+            <Label name="_cse_extended"/>
+            <Label name="_cse_world"/>
         </Annotation>
         <Annotation about="stackoverflow.com/*" score="0.5">
-            <Label name="_cse_extended" />
-            <Label name="_cse_world" />
+            <Label name="_cse_extended"/>
+            <Label name="_cse_world"/>
         </Annotation>
         <Annotation about="*" score="0.2">
-            <Label name="_cse_world" />
+            <Label name="_cse_world"/>
         </Annotation>
     </Annotations>
 </GoogleCustomizations>
