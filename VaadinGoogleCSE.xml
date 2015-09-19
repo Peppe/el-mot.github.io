@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <GoogleCustomizations>
-    <CustomSearchEngine language="en" encoding="UTF-8" autocompletions="true">
+    <CustomSearchEngine language="en" encoding="UTF-8" autocompletions="true"
+                        top_refinements="2147483647" enable_suggest="true" enable_promotions="true">
         <Title>Vaadin</Title>
         <Context>
             <Facet>
-                <FacetItem title="Book">
+                <FacetItem>
                     <Label name="_cse_vaadin_book" mode="FILTER">
                         <Rewrite/>
                     </Label>
                 </FacetItem>
+                <Title>Book</Title>>
             </Facet>
             <Facet>
-                <FacetItem title="Vaadin site">
+                <FacetItem>
                     <Label name="_cse_vaadin" mode="FILTER">
                         <Rewrite/>
                     </Label>
                 </FacetItem>
+                <Title>Vaadin site</Title>>
             </Facet>
             <Facet>
                 <FacetItem title="Vaadin+Stackoverflow">
@@ -23,13 +26,15 @@
                         <Rewrite/>
                     </Label>
                 </FacetItem>
+                <Title>Vaadin+Stackoverflow</Title>>
             </Facet>
             <Facet>
-                <FacetItem title="Whole Web">
+                <FacetItem>
                     <Label name="_cse_world" mode="FILTER">
                         <Rewrite/>
                     </Label>
                 </FacetItem>
+                <Title>Whole Web</Title>
             </Facet>
             <BackgroundLabels>
                 <Label name="_cse_vaadin_book" mode="FILTER"/>
@@ -86,7 +91,7 @@
     </Annotations>
     <Promotions>
         <Promotion
-                   queries="spreadsheet, exce"
+                   queries="spreadsheet, excel, charts"
                    title="Vaadin Pro Tools"
                    url="https://vaadin.com/pro-tools"
                    image_url="https://vaadin.com/image/image_gallery?uuid=cd702df5-e7d4-44f4-a13c-c83d9833ea30&amp;groupId=10187&amp;t=1383723361473" />
