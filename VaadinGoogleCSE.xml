@@ -38,7 +38,7 @@
         </cse_advance_settings>
     </CustomSearchEngine>
     <Annotations>
-        <Annotation about="https://vaadi.com/book/*">
+        <Annotation about="https://vaadin.com/book/*">
             <Label name="_cse_vaadin_book"/>
         </Annotation>
     </Annotations>
