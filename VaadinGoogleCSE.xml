@@ -36,10 +36,9 @@
                 <Label name="_cse_exclude_vaadin_book" mode="ELIMINATE"/>
             </BackgroundLabels>
         </Context>
-        <LookAndFeel nonprofit="false" element_layout="2" theme="1" custom_theme="true"
+        <LookAndFeel nonprofit="false" custom_theme="true"
                      text_font="FontAwesome, Arial, sans-serif"
-                     url_length="full" enable_cse_thumbnail="true" promotion_url_length="full"
-                     ads_layout="1">
+                      enable_cse_thumbnail="true" promotion_url_length="full">
             <Colors url="#008000" background="#FFFFFF" border="#FFFFFF" title="#0000CC" text="#000000" visited="#0000CC"
                     title_hover="#0000CC" title_active="#0000CC"/>
             <Promotions title_color="#0000CC" title_visited_color="#0000CC" url_color="#008000"
@@ -85,4 +84,11 @@
             <Label name="_cse_world"/>
         </Annotation>
     </Annotations>
+    <Promotions>
+        <Promotion
+                   queries="spreadsheet, exce"
+                   title="Vaadin Pro Tools"
+                   url="https://vaadin.com/pro-tools"
+                   image_url="https://vaadin.com/image/image_gallery?uuid=cd702df5-e7d4-44f4-a13c-c83d9833ea30&amp;groupId=10187&amp;t=1383723361473" />
+    </Promotions>
 </GoogleCustomizations>
