@@ -37,9 +37,10 @@
             <web_search_options restrict_safe_search="0"/>
         </cse_advance_settings>
     </CustomSearchEngine>
-    <Annotations>
-        <Annotation about="https://vaadin.com/book/*">
-            <Label name="_cse_vaadin_book"/>
+    <Annotations start="0" num="1" total="1">
+        <Annotation about="vaadin.com/book/*" score="1">
+            <Label name="_cse_vaadin_book" />
+            <AdditionalData attribute="original_url" value="vaadin.com/book/" />
         </Annotation>
     </Annotations>
 </GoogleCustomizations>
