@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Promotions>
+    <Promotion
+            queries="spreadsheet, excel, charts"
+            title="Vaadin Pro Tools"
+            url="https://vaadin.com/pro-tools"
+            image_url="https://vaadin.com/image/image_gallery?uuid=cd702df5-e7d4-44f4-a13c-c83d9833ea30&amp;groupId=10187&amp;t=1383723361473"/>
+</Promotions>

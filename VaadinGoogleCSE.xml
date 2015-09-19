@@ -5,36 +5,32 @@
         <Title>Vaadin</Title>
         <Context>
             <Facet>
-                <FacetItem>
+                <FacetItem Title="Book">
                     <Label name="_cse_vaadin_book" mode="FILTER">
                         <Rewrite/>
                     </Label>
                 </FacetItem>
-                <Title>Book</Title>>
             </Facet>
             <Facet>
-                <FacetItem>
+                <FacetItem Title="Vaadin site">
                     <Label name="_cse_vaadin" mode="FILTER">
                         <Rewrite/>
                     </Label>
                 </FacetItem>
-                <Title>Vaadin site</Title>>
             </Facet>
             <Facet>
-                <FacetItem title="Vaadin+Stackoverflow">
+                <FacetItem Title="Vaadin+Stackoverflow">
                     <Label name="_cse_extended" mode="FILTER">
                         <Rewrite/>
                     </Label>
                 </FacetItem>
-                <Title>Vaadin+Stackoverflow</Title>>
             </Facet>
             <Facet>
-                <FacetItem>
+                <FacetItem Title="Whole Web">
                     <Label name="_cse_world" mode="FILTER">
                         <Rewrite/>
                     </Label>
                 </FacetItem>
-                <Title>Whole Web</Title>
             </Facet>
             <BackgroundLabels>
                 <Label name="_cse_vaadin_book" mode="FILTER"/>
@@ -89,11 +85,5 @@
             <Label name="_cse_world"/>
         </Annotation>
     </Annotations>
-    <Promotions>
-        <Promotion
-                   queries="spreadsheet, excel, charts"
-                   title="Vaadin Pro Tools"
-                   url="https://vaadin.com/pro-tools"
-                   image_url="https://vaadin.com/image/image_gallery?uuid=cd702df5-e7d4-44f4-a13c-c83d9833ea30&amp;groupId=10187&amp;t=1383723361473" />
-    </Promotions>
+    <Include type="Promotions" href="http://el-mot.github.io/VaadinPromotions.xml"/>
 </GoogleCustomizations>
