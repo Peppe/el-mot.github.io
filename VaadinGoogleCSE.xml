@@ -6,22 +6,22 @@
         <Context>
             <Facet>
                 <FacetItem title="Book">
-                    <Label name="_cse_vaadin_book" />
+                    <Label name="_cse_vaadin_book"  mode="FILTER"/>
                 </FacetItem>
             </Facet>
             <Facet>
                 <FacetItem title="Vaadin site">
-                    <Label name="_cse_vaadin" />
+                    <Label name="_cse_vaadin"  mode="FILTER"/>
                 </FacetItem>
             </Facet>
             <Facet>
                 <FacetItem title="Vaadin+Stackoverflow">
-                    <Label name="_cse_extended" />
+                    <Label name="_cse_extended"  mode="FILTER"/>
                 </FacetItem>
             </Facet>
             <Facet>
                 <FacetItem title="Whole Web">
-                    <Label name="_cse_world" />
+                    <Label name="_cse_world"  mode="FILTER"/>
                 </FacetItem>
             </Facet>
             <BackgroundLabels>
